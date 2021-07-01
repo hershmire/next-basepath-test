@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        Home page:
+        Dashboard page:
         URL: {url}
       </main>
 
@@ -34,7 +34,7 @@ export default function Home() {
 }
 
 export function getServerSideProps(ctx) {
-  console.log('Home Page ctx:', ctx);
+  console.log('Dashboard Page ctx:', ctx);
   return {
     props: {}
   }
